@@ -60,3 +60,10 @@
     }
 }
 
+@media (max-width: 412px) {
+    .corpo {
+        margin: 10px 20px;
+        padding: 40px 20px;
+    }
+}
+
