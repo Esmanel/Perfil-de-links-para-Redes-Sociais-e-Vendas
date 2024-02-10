@@ -40,3 +40,15 @@
         margin: 20px 20px;
     }
 }
+
+@media (max-width:600px){
+    body{
+        background: #eb7514; 
+    }
+    
+    .corpo{
+        margin: 50px 100px;
+        padding: 50px 50px;
+        top: 80px;
+    }
+}
