@@ -27,3 +27,10 @@
     }
         
 }
+
+@media (max-width: 800px) {
+    .corpo {
+        margin: 100px 200px;
+        padding: 20px;
+    }
+}
