@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Protest";
+    src: url("../fonts/ProtestRiot-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Asap Regular";
+    src: url("../fonts/Asap/static/Asap_Condensed-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Asap Bold";
+    src: url("../fonts/Asap/static/Asap_Condensed-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-VariableFont_slnt,wght.ttf");
+}

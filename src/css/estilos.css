@@ -1,0 +1,96 @@
+* {
+    max-width: auto;
+    max-height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    /* background: radial-gradient(circle, rgba(235,117,20,0.8463760504201681) 28%, rgba(2,146,170,0.8155637254901961) 67%); */
+
+    background: radial-gradient(circle, rgb(247, 112, 2) 15%, #0c0f53 85%);
+}
+
+.corpo {
+    margin:100px 600px;
+    padding: 40px 100px;
+    text-align: center;
+    background-color: #161616;
+    border-radius: 20px;
+    /* box-shadow: 2px black; */
+}
+
+.img-perfil img {
+    background-color: #aaaaaa;
+    border-radius: 50%;
+    width: 130px;
+    height: 135px;
+    overflow: hidden;
+    position: relative; 
+}
+
+.informacoes .nome {
+    font-family: "Protest";
+    font-size: 32px;
+    letter-spacing: 0.3px;
+    font-weight: lighter;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.informacoes .local {
+    color: #eb7514;
+    font-family: "Inter";
+    /* letter-spacing: 1px; */
+    padding: 10px 0;
+    font-size: 15px;
+    position:relative;
+    margin: 0;
+}
+
+.informacoes p {
+    font-family: "Inter";
+    font-size: 12px;
+    padding: 10px;
+}
+
+.corpo .opcoes {
+    /* padding-top: 20px; */
+    height: 100%;
+    width: 100%;;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* background-color: black; */
+    justify-content: center;
+
+    
+}
+
+.corpo .opcoes a {
+    max-width: 230px;
+    height: 50px;
+    border: 2px solid #3d3c3c;
+    border-radius: 18px;
+    line-height: 50px;
+    background-color: #3d3c3c;
+    color: #ffffff;
+    font-family: "Inter";
+    font-weight: bolder;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+    margin: 0 20%;
+}
+
+.corpo .opcoes a:hover {
+    background-color: #eb7514;
+    color: #0c0f53 ;
+    border-color: #ffffff;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+
